@@ -7,8 +7,16 @@ class calculate {
         int result = a + b;
 
         // System.out.println("add the value "+result);
+        System.out.println("we are in add");
         return result;
     }
+}
+
+static int add2(int a, int b)
+{
+    int result  = a + b;
+    System.out.println("we are in add 2");
+    return result;
 }
 
 public class classes {
@@ -31,6 +39,9 @@ public class classes {
         result = calc.add(a,b);
 
         System.out.println("The value of add is "+result);
+
+        int result2;
+        result = add2(a, b);
         
     }
     
