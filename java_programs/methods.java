@@ -7,7 +7,11 @@ class computer {
     }
 
     public String getMePen(int cost) {
+
+        if(cost >=11)
         return "pen"; // returning the type string
+        else
+        return "Nothing";
     }
 }
 
